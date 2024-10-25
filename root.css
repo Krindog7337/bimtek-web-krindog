@@ -1,0 +1,18 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --text: rgb(12, 18, 18);
+    --background: rgb(249, 251, 251);
+    --primary: rgb(146, 26, 17);
+    --secondary: rgb(255, 143, 143);
+    --accent: rgb(87, 165, 255);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: rgb(237, 243, 243);
+    --background: rgb(4, 6, 6);
+    --primary: rgb(238, 118, 109);
+    --secondary: rgb(112, 0, 0);
+    --accent: rgb(0, 79, 168);
+  }
+}

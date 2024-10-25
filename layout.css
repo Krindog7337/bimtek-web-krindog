@@ -1,0 +1,99 @@
+/* (*) selector for style reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  margin: 1rem 0;
+  width: 80%;
+}
+
+header {
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0;
+  position: fixed;
+  width: 80%;
+  background-color: aliceblue;
+}
+
+nav {
+  display: flex;
+  margin: auto 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+ul > li {
+  list-style: none;
+  padding: 0 0.7rem;
+}
+
+ul > li:hover {
+  background-color: var(--accent);
+  border-radius: 8px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+li > .a-header:visited {
+  color: red;
+}
+li > .a-footer:visited {
+  color: blue;
+}
+
+:link {
+  color: aquamarine;
+}
+
+.content {
+  display: flex;
+  margin-top: 4rem;
+  gap: 1rem;
+}
+
+.sidebar-left {
+  width: 70%;
+  background: #ff8237;
+}
+
+.sidebar-right {
+  width: 30%;
+  height: 300px;
+  background-color: #ff7272;
+  margin: 1rem;
+  overflow: right;
+  padding: 1rem;
+}
+
+.ask-box {
+  background-color: palevioletred;
+  border-radius: 16rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 60px;
+  height: 60px;
+}
+.search {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  margin: 1rem auto;
+}
+
+footer {
+  background-color: burlywood;
+  padding: 1rem;
+}
